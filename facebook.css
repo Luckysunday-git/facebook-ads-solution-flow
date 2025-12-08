@@ -1,0 +1,364 @@
+body {
+  /* font-family: Arial, sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Segoe UI Symbol", sans-serif;
+  background-color: #1877f2;
+  /* background-color: #eef3ff; */
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 450px;
+  margin: -20px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  background-color: #f9fbff;
+}
+h2 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  color: #1c1c1c;
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.option-btn {
+  background: #eef3ff;
+  border: 1px solid #1877f2;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.option-btn {
+  font-size: 17px; /* Mobile default */
+}
+
+@media (min-width: 768px) {
+  .option-btn {
+    font-size: 17px; /* Desktop */
+  }
+}
+
+.option-btn:hover {
+  background: #d7dfef;
+}
+
+.option-btn:active {
+  background-color: #adbce4;
+}
+.hidden {
+  display: none;
+}
+
+.backTotopics {
+  visibility: hidden;
+  color: #0b69ff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: large;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+ul.topics-list {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+ul.topics-list li {
+  margin-bottom: 10px;
+  /* line-height: 1.5; */
+  font-size: 17px;
+  list-style: none;
+}
+
+.readList span {
+  /* margin-top: 0; */
+  color: #ff3b3b;
+  font-style: italic;
+  font-weight: bold;
+  /* font-size: small; */
+}
+
+.pay-btn {
+  margin-top: 20px;
+  background: #1877f2;
+  border: 2px solid #2853a9;
+  color: white;
+  padding: 5px 7px;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background-color: #6a97f1;
+}
+
+.pay-btn:active {
+  background-color: #064597;
+}
+
+.chat-Expert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#expert {
+  margin-top: 20px;
+  padding: 5px 7px;
+  color: #25d366; /* WhatsApp Green */
+  border: 3px solid #25d366;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  background: rgba(246, 242, 242, 0.992);
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and text */
+}
+
+#expert .wa-icon {
+  width: 40px;
+  height: 22px;
+  fill: #25d366;
+}
+
+#expert:hover {
+  background-color: #d7dfef;
+}
+
+#expert:active {
+  background-color: #9fb5e7;
+}
+
+.back-btn {
+  color: #0b69ff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: large;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.back-btn:active {
+  background-color: #e6eaee;
+  color: #064597;
+  border-radius: 5px;
+}
+.welcome {
+  text-align: center;
+  color: #1877f2;
+  font-size: x-large;
+  font-weight: 700;
+
+  margin-bottom: 12px;
+}
+
+.welcome-text {
+  margin-top: 12px;
+}
+
+.overlay .online {
+  text-align: center;
+  margin-top: 12px;
+  color: #1877f2;
+  font-style: italic;
+  font-size: medium;
+  /* opacity: 0.7; */
+}
+.welcome img {
+  width: 50px;
+  margin-bottom: 23px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  border: none;
+}
+
+.container img {
+  width: 100px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+}
+
+.overlay {
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  background-color: #f9fbff;
+}
+
+.qSelected {
+  color: #25d366;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#joinGroupBtn2,
+#joinGroupBtn3,
+#joinGroupBtn4,
+#joinGroupBtn5 {
+  visibility: hidden;
+  position: fixed;
+  display: flex;
+  margin: auto;
+  float: end;
+  border-radius: 20px;
+  /* justify-content: end; */
+}
+
+#joinGroupBtn2 button {
+  background-color: #0b69ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+  color: #f9fbff;
+  border: 1px solid #1877f2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#joinGroupBtn3 button {
+  background-color: #0b69ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+  color: #f9fbff;
+  border: 1px solid #1877f2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#joinGroupBtn4 button {
+  background-color: #0b69ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+  color: #f9fbff;
+  border: 1px solid #1877f2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#joinGroupBtn5 button {
+  background-color: #0b69ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: medium;
+  color: #f9fbff;
+  border: 1px solid #1877f2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.platform {
+  margin-top: 20px;
+  font-style: italic;
+  color: #0b69ff;
+  margin-top: 28px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.platform span {
+  color: #25d366;
+  font-size: 500;
+  /* font-weight: bold; */
+}
+
+.more-info {
+  text-align: center;
+  color: #25d366;
+  font-size: small;
+  font-weight: 300;
+}
+
+.copy-box {
+  margin-top: 20px;
+  background: #f0f4ff;
+  padding: 12px;
+  color: #b1afaf;
+  /* visibility: hidden; */
+  border-radius: 8px;
+  border-left: 5px solid #3b82f6;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.copy-btn {
+  background: #1877f2;
+  /* background: #eef3ff; */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.copy-btn:active {
+  transform: scale(0.95);
+}
+
+.copy-success {
+  color: #16a34a;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* FULL SCREEN LOADING OVERLAY */
+#loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  display: none; /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 9999;
+  font-family: Poppins, sans-serif;
+}
+
+/* SPINNER */
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ddd;
+  border-top-color: #0b69ff;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#loadingOverlay p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #0b69ff;
+}

@@ -340,6 +340,24 @@ ul.topics-list li {
   font-family: Poppins, sans-serif;
 }
 
+.payment {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 17px;
+  border: 1px solid #1877f2;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px; /* space between inputs */
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-style: italic;
+}
+
+.payment:focus {
+  border-color: #0b69ff;
+  box-shadow: 0 0 5px rgba(24, 119, 242, 0.4);
+}
+
 /* SPINNER */
 .loader {
   width: 50px;

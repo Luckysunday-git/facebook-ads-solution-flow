@@ -60,6 +60,19 @@
         "Repeating the process to consistently hit or exceed 10x ROI.",
       ],
 
+      "I want to learn how to run TikTok ads for my business": [
+        "How to create and set up your TikTok Ads Manager.",
+        "How to install TikTok Pixel on your website or landing page.",
+        "How to pick the correct campaign objective.",
+        "How to create TikTok-style short videos with native pacing.",
+        "How to use hooks, trending formats, and text overlays.",
+        "How to test multiple creatives at once (3–5 videos).",
+        "How to identify strong CTR, CPC, and view duration.",
+        "How to target interest + behavior audiences effectively.",
+        "How to use automated creative optimization (ACO).",
+        "How to scale winning TikTok ads profitably.",
+      ],
+
       "I want to learn how to set up ads that send people to my WhatsApp DM, join my groups, view my status etc.":
         [
           "Understanding the difference between Click-to-WhatsApp and WhatsApp Conversion Ads.",
@@ -165,6 +178,123 @@
         // "Dedicated expert support.",
         "Please I need an expert to run ads for me.",
       ],
+
+      "I want to learn how to create compelling ad videos & designs": [
+        "How to understand basic design principles (contrast, spacing, colors, alignment).",
+        "How to pick the right tools like Canva, CapCut, Adobe Express, or Premiere Rush.",
+        "How to study winning ads to know what works in your niche.",
+        "How to write a simple script or storyboard before designing.",
+        "How to create strong hooks within the first 3 seconds.",
+        "How to edit videos with captions, transitions, effects, and movement.",
+        "How to add engaging elements like emojis, stickers, and sound effects.",
+        "How to design clear, bold, high-quality thumbnails and images.",
+        "How to export videos in correct formats for Facebook, IG, and TikTok.",
+        "How to create multiple variations of designs/videos for testing.",
+      ],
+
+      "I want to learn how to target the right audience for my business": [
+        "How to define your ideal customer avatar.",
+        "How to use Meta Audience Insights for research.",
+        "How to choose the best interests relevant to your niche.",
+        "How to group interests properly into ad sets.",
+        "How to create custom audiences (visitors, engagers, leads).",
+        "How to create lookalike audiences based on your best data.",
+        "How to test multiple audiences at once.",
+        "How to identify which audiences perform best.",
+        "How to block bad audiences using exclusions.",
+        "How to scale using the winning audience groups.",
+      ],
+
+      "I want to learn how to write powerful ad copies that convert": [
+        "How to research audience pain points, fears, desires, and goals.",
+        "How to use copywriting formulas like AIDA, PAS, FAB, and Before–After–Bridge.",
+        "How to write strong hooks that stop the scroll.",
+        "How to focus on benefits instead of features.",
+        "How to inject emotions, storytelling, or social proof.",
+        "How to use simple persuasive language that is easy to read.",
+        "How to structure copy for WhatsApp conversion or landing pages.",
+        "How to add scarcity, urgency, bonuses, or guarantees.",
+        "How to format your copy with spacing for readability.",
+        "How to write strong call-to-actions that drive clicks.",
+      ],
+
+      "I want to learn how to run Instagram ads specifically": [
+        "How to switch your account to a Professional/Business account.",
+        "How to connect your Instagram page to your Facebook Business Manager.",
+        "How to choose Instagram-focused campaign objectives.",
+        "How to select only Instagram placements (Reels, Feed, Stories, Explore).",
+        "How to design Instagram-formatted creatives (1:1, 4:5, 9:16).",
+        "How to write captions that fit Instagram culture.",
+        "How to test multiple creatives for Reels and Feed separately.",
+        "How to analyze Instagram ad metrics like saves, shares, profile visits.",
+        "How to use deep-interest targeting for IG audiences.",
+        "How to scale the best performing Instagram ads.",
+      ],
+
+      "I want a complete Facebook ads mentorship program": [
+        "How to join a full step-by-step mentorship roadmap.",
+        "How to follow structured learning modules weekly.",
+        "How to complete guided practical assignments.",
+        "How to get mentor feedback on your campaigns.",
+        "How to set up real ad campaigns for practice.",
+        "How to fix errors and troubleshoot issues with support.",
+        "How to apply advanced targeting, creative, and copywriting skills.",
+        "How to join live sessions, Q&A, or community discussions.",
+        "How to monitor your progress with weekly tasks.",
+        "How to graduate with confidence to run ads profitably.",
+      ],
+
+      "I want to learn how to create sales funnels for my ads": [
+        "How to understand funnel stages (TOF, MOF, BOF).",
+        "How to create a landing page or WhatsApp funnel.",
+        "How to craft an irresistible offer to attract quality leads.",
+        "How to connect traffic ads to your funnel page.",
+        "How to install tracking tools like Pixel or CAPI.",
+        "How to write funnel copy that increases conversions.",
+        "How to create email/WhatsApp automation for follow-up.",
+        "How to retarget people who didn’t take action.",
+        "How to measure funnel performance using analytics.",
+        "How to optimize your funnel for higher conversion rates.",
+      ],
+
+      "I want access to your full Ads Mastery Course": [
+        "How to enroll in the full Ads Mastery program (see details below).",
+        "How to access step-by-step lessons on ads setup.",
+        "How to study targeting, creatives, copywriting, and scaling modules.",
+        "How to download templates (scripts, copies, designs).",
+        "How to complete quizzes and practice exercises.",
+        "How to join support groups or mentorship calls.",
+        "How to run practical campaigns alongside lessons.",
+        "How to fix common ad errors using provided guides.",
+        "How to track your learning progress.",
+        "How to apply everything to real paid advertising.",
+      ],
+
+      "I want to learn how to generate quality leads for my business": [
+        "How to define the exact type of leads you want.",
+        "How to create valuable lead magnets (PDFs, videos, discounts).",
+        "How to run Lead Form ads or Landing Page lead ads.",
+        "How to set up conversion tracking for your leads.",
+        "How to target people most likely to sign up.",
+        "How to design high-converting creatives for lead gen.",
+        "How to qualify leads automatically (questions, filters).",
+        "How to automate WhatsApp or email follow-ups.",
+        "How to measure lead quality vs cost.",
+        "How to optimize for cheaper & higher-quality leads.",
+      ],
+
+      "I want to learn how to create and manage a Business Manager properly": [
+        "How to create a Meta Business Manager account.",
+        "How to add your Facebook Page, Instagram account, and Ad Account.",
+        "How to assign roles and permissions safely.",
+        "How to set up business verification.",
+        "How to organize assets into folders and projects.",
+        "How to set up Meta Pixel properly.",
+        "How to set up Conversion API (CAPI) for better tracking.",
+        "How to connect payment methods securely.",
+        "How to maintain account health and avoid restrictions.",
+        "How to manage everything professionally as your business grows.",
+      ],
     };
 
     // Render advanced topics as clickable buttons
@@ -219,31 +349,71 @@
         // Set amounts
         switch (window.selectedQ2) {
           case "I want to learn how to run profitable Facebook ads from scratch":
-            window.selectedAmount = 20500;
+            window.selectedAmount = 7500;
             break;
           case "I want to learn how to set up ads that send people to WhatsApp DM, join groups, view status etc.":
-            window.selectedAmount = 20000;
+            window.selectedAmount = 7500;
             break;
           case "I want to learn how to fix my current ads":
             window.selectedAmount = 15000;
             break;
           case "I want to learn how to use Facebook ad to sell my physical products like shoes, clothes, hairs, bags etc.":
-            window.selectedAmount = 20000;
+            window.selectedAmount = 10000;
             break;
           case "I want to learn how to spend ₦5000 on ads and make at least ₦50,000":
-            window.selectedAmount = 20000;
+            window.selectedAmount = 5000;
             break;
           case "I want to learn how to improve and scale my results":
             window.selectedAmount = 25000;
             break;
           case "I want to learn how to set up ads that send people to my WhatsApp DM, join my groups, view my status etc.":
-            window.selectedAmount = 15500;
+            window.selectedAmount = 6500;
             break;
           case "I need an expert to run my ads for me":
-            window.selectedAmount = 42500;
+            window.selectedAmount = 30500;
             break;
-          default:
+          case "I want to learn how to create compelling ad videos & designs":
+            window.selectedAmount = 5000;
+            break;
+
+          case "I want to learn how to target the right audience for my business":
+            window.selectedAmount = 7500;
+            break;
+
+          case "I want to learn how to write powerful ad copies that convert":
+            window.selectedAmount = 5000;
+            break;
+
+          case "I want to learn how to run Instagram ads specifically":
+            window.selectedAmount = 7500;
+            break;
+
+          case "I want to learn how to run TikTok ads for my business":
+            window.selectedAmount = 6500;
+            break;
+
+          case "I want a complete Facebook ads mentorship program":
             window.selectedAmount = 10000;
+            break;
+
+          case "I want to learn how to create sales funnels for my ads":
+            window.selectedAmount = 5000;
+            break;
+
+          case "I want access to your full Ads Mastery Course":
+            window.selectedAmount = 50000;
+            break;
+
+          case "I want to learn how to generate quality leads for my business":
+            window.selectedAmount = 5000;
+            break;
+
+          case "I want to learn how to create and manage a Business Manager properly":
+            window.selectedAmount = 5000;
+            break;
+
+          default:
+            window.selectedAmount = 5000;
         }
 
         payBtn.innerText = `Pay ₦${window.selectedAmount.toLocaleString()} to Start`;

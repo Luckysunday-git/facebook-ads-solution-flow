@@ -113,6 +113,19 @@
         "Troubleshooting ad delivery issues.",
         "Scaling campaigns effectively.",
       ],
+
+      "I want to learn how to run Google Ads for my business": [
+        "How to create and set up your Google Ads account correctly.",
+        "How to choose the right campaign type (Search, Display, YouTube, Shopping, Performance Max).",
+        "How to do proper keyword research using Google Keyword Planner.",
+        "How to select high-intent keywords that bring ready-to-buy customers.",
+        "How to structure campaigns and ad groups for better Quality Score.",
+        "How to write high-converting ad copy that matches search intent.",
+        "How to set up conversion tracking with Google Tag or Google Analytics.",
+        "How to use smart bidding strategies (Maximize Conversions, Target CPA, ROAS).",
+        "How to optimize ads using CTR, CPC, Quality Score, and conversion data.",
+        "How to scale profitable Google Ads campaigns without wasting budget.",
+      ],
       "I want to learn how to use Facebook ad to sell my physical products like shoes, clothes, hairs, bags etc.":
         [
           "How to set up product catalog setup for Facebook Ads",
@@ -349,10 +362,10 @@
         // Set amounts
         switch (window.selectedQ2) {
           case "I want to learn how to run profitable Facebook ads from scratch":
-            window.selectedAmount = 7500;
+            window.selectedAmount = 12500;
             break;
           case "I want to learn how to set up ads that send people to WhatsApp DM, join groups, view status etc.":
-            window.selectedAmount = 7500;
+            window.selectedAmount = 10500;
             break;
           case "I want to learn how to fix my current ads":
             window.selectedAmount = 15000;
@@ -361,7 +374,7 @@
             window.selectedAmount = 10000;
             break;
           case "I want to learn how to spend ₦5000 on ads and make at least ₦50,000":
-            window.selectedAmount = 5000;
+            window.selectedAmount = 10500;
             break;
           case "I want to learn how to improve and scale my results":
             window.selectedAmount = 25000;
@@ -373,47 +386,51 @@
             window.selectedAmount = 30500;
             break;
           case "I want to learn how to create compelling ad videos & designs":
-            window.selectedAmount = 5000;
+            window.selectedAmount = 7500;
             break;
 
           case "I want to learn how to target the right audience for my business":
-            window.selectedAmount = 7500;
+            window.selectedAmount = 8000;
             break;
 
           case "I want to learn how to write powerful ad copies that convert":
-            window.selectedAmount = 5000;
-            break;
-
-          case "I want to learn how to run Instagram ads specifically":
             window.selectedAmount = 7500;
             break;
 
+          case "I want to learn how to run Instagram ads specifically":
+            window.selectedAmount = 12000;
+            break;
+
           case "I want to learn how to run TikTok ads for my business":
-            window.selectedAmount = 6500;
+            window.selectedAmount = 12500;
+            break;
+
+          case "I want to learn how to run Google Ads for my business":
+            window.selectedAmount = 25000;
             break;
 
           case "I want a complete Facebook ads mentorship program":
-            window.selectedAmount = 10000;
+            window.selectedAmount = 10500;
             break;
 
           case "I want to learn how to create sales funnels for my ads":
-            window.selectedAmount = 5000;
+            window.selectedAmount = 12500;
             break;
 
           case "I want access to your full Ads Mastery Course":
-            window.selectedAmount = 50000;
+            window.selectedAmount = 75000;
             break;
 
           case "I want to learn how to generate quality leads for my business":
-            window.selectedAmount = 5000;
+            window.selectedAmount = 10200;
             break;
 
           case "I want to learn how to create and manage a Business Manager properly":
-            window.selectedAmount = 5000;
+            window.selectedAmount = 15000;
             break;
 
           default:
-            window.selectedAmount = 5000;
+            window.selectedAmount = 10000;
         }
 
         payBtn.innerText = `Pay ₦${window.selectedAmount.toLocaleString()} to Start`;

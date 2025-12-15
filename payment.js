@@ -362,10 +362,10 @@
         // Set amounts
         switch (window.selectedQ2) {
           case "I want to learn how to run profitable Facebook ads from scratch":
-            window.selectedAmount = 12500;
+            window.selectedAmount = 7500;
             break;
           case "I want to learn how to set up ads that send people to WhatsApp DM, join groups, view status etc.":
-            window.selectedAmount = 10500;
+            window.selectedAmount = 7500;
             break;
           case "I want to learn how to fix my current ads":
             window.selectedAmount = 15000;
@@ -374,13 +374,13 @@
             window.selectedAmount = 10000;
             break;
           case "I want to learn how to spend ₦5000 on ads and make at least ₦50,000":
-            window.selectedAmount = 10500;
+            window.selectedAmount = 9500;
             break;
-          case "I want to learn how to improve and scale my results":
+          case "I want to learn how to improve and scale my ads results":
             window.selectedAmount = 25000;
             break;
           case "I want to learn how to set up ads that send people to my WhatsApp DM, join my groups, view my status etc.":
-            window.selectedAmount = 10250;
+            window.selectedAmount = 7500;
             break;
           case "I need an expert to run my ads for me":
             window.selectedAmount = 30500;
@@ -398,11 +398,11 @@
             break;
 
           case "I want to learn how to run Instagram ads specifically":
-            window.selectedAmount = 12000;
+            window.selectedAmount = 7500;
             break;
 
           case "I want to learn how to run TikTok ads for my business":
-            window.selectedAmount = 12500;
+            window.selectedAmount = 7500;
             break;
 
           case "I want to learn how to run Google Ads for my business":
@@ -410,7 +410,7 @@
             break;
 
           case "I want a complete Facebook ads mentorship program":
-            window.selectedAmount = 10500;
+            window.selectedAmount = 15000;
             break;
 
           case "I want to learn how to create sales funnels for my ads":

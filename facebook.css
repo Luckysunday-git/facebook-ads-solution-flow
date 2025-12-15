@@ -177,10 +177,10 @@ ul.topics-list li {
   /* opacity: 0.7; */
 }
 .welcome img {
-  width: 20px;
+  width: 50px;
   margin-bottom: 23px;
   border-radius: 50px;
-  /* display: block; */
+  display: block;
   margin: auto;
   border: none;
 }

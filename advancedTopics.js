@@ -274,7 +274,7 @@ window.advancedTopicsPayment = {
   "A/B Creative Testing Strategy": 10000,
   "Fixing Low Reach / Shadow Bans": 12000,
   "WhatsApp Sales Automation Setup": 20000,
-  "I want to learn how to run Instagram ads specifically": 12000,
-  "I want to learn how to run TikTok ads for my business": 12500,
+  "I want to learn how to run Instagram ads specifically": 7500,
+  "I want to learn how to run TikTok ads for my business": 7500,
   "How to start a profitable online business": 15000,
 };

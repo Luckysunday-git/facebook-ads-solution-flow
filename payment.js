@@ -518,7 +518,7 @@
         details.forEach((t, i) => (message += `${i + 1}. ${t}\n`));
       }
       const encoded = encodeURIComponent(message);
-      const number = "2348118254967";
+      const number = "2348130853304";
       window.open(`https://wa.me/${number}?text=${encoded}`, "_blank");
     });
 

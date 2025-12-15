@@ -1,6 +1,6 @@
 (function () {
   const PAYSTACK_KEY = "pk_live_f1cd72816e1e7939f2026803b200eb1f6ac00c1b"; // public key
-  const whatsappPhone = "2348118254967";
+  const whatsappPhone = "2348130853304";
 
   function parseAmountFromButtonText(text) {
     if (!text) return 0;

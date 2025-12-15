@@ -177,10 +177,10 @@ ul.topics-list li {
   /* opacity: 0.7; */
 }
 .welcome img {
-  width: 50px;
+  width: 20px;
   margin-bottom: 23px;
   border-radius: 50px;
-  display: block;
+  /* display: block; */
   margin: auto;
   border: none;
 }
@@ -351,7 +351,6 @@ ul.topics-list li {
   margin-bottom: 15px; /* space between inputs */
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
-  font-style: italic;
 }
 
 .payment:focus {

@@ -380,7 +380,7 @@
             window.selectedAmount = 25000;
             break;
           case "I want to learn how to set up ads that send people to my WhatsApp DM, join my groups, view my status etc.":
-            window.selectedAmount = 6500;
+            window.selectedAmount = 10250;
             break;
           case "I need an expert to run my ads for me":
             window.selectedAmount = 30500;

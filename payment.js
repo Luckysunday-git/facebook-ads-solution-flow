@@ -73,6 +73,24 @@
         "How to scale winning TikTok ads profitably.",
       ],
 
+      "I want to learn how to run YouTube Ads professionally": [
+        "How to create a Google Ads account.",
+        "How to link your YouTube channel to Google Ads.",
+        "How to choose the right YouTube ad objective (sales, leads, traffic, awareness).",
+        "How to select the best YouTube ad format (skippable, non-skippable, in-feed, Shorts, bumper).",
+        "How to define your target audience (location, age, interests, keywords, placements).",
+        "How to set daily budgets and bidding strategies correctly.",
+        "How to upload and optimize your video ad for conversions.",
+        "How to write compelling ad headlines and descriptions.",
+        "How to add call-to-action buttons and links.",
+        "How to set up conversion tracking for YouTube Ads.",
+        "How to monitor performance metrics (views, CPV, CTR, conversions).",
+        "How to optimize ads to reduce cost and increase results.",
+        "How to scale winning YouTube ad campaigns safely.",
+        "How to avoid ad disapprovals and account suspensions.",
+        "How to manage YouTube Ads professionally as your business grows.",
+      ],
+
       "I want to learn how to set up ads that send people to my WhatsApp DM, join my groups, view my status etc.":
         [
           "Understanding the difference between Click-to-WhatsApp and WhatsApp Conversion Ads.",
